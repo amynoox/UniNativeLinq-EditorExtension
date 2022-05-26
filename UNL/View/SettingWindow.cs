@@ -144,7 +144,7 @@ namespace UniNativeLinq.Editor
                             list.Add(new Repeat(api));
                             break;
                         case "Range":
-                            list.Add(new Range(api));
+                            list.Add(new UniNativeLinq.Editor.CodeGenerator.Range(api));
                             break;
                     }
                     break;
